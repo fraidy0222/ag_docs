@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/developer_docs",
+  base: "/test/",
   title: "AG Developer Docs",
   description: "Documentation for future proyects",
   themeConfig: {
