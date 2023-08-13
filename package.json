@@ -7,21 +7,19 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs",
     "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore"
   },
   "dependencies": {
     "vue": "^3.3.4"
   },
   "devDependencies": {
+    "@headlessui/vue": "^1.7.15",
+    "@heroicons/vue": "^2.0.18",
     "@vitejs/plugin-vue": "^4.2.3",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.27",
     "prettier": "^3.0.1",
     "tailwindcss": "^3.3.3",
-    "vite": "^4.4.5",
-    "vitepress": "^1.0.0-beta.7"
+    "vite": "^4.4.5"
   }
 }

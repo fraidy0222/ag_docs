@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+
+const defaultTheme = require('tailwindcss/defaultTheme')
 export default {
   content: [
     "./index.html",
@@ -6,6 +8,9 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,vue}",
   ],
   theme: {
+    fontFamily: {
+      'sans': ["Inter", 'sans-serif']
+    },
     extend: {},
   },
   plugins: [],
